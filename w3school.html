@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3-School</title>
+    <style>
+         /* .h:hover{
+            background-color:green;
+            width: 70px;
+            height: 55px;
+            align-items: center;
+            margin-top: -3%;
+            padding-bottom: 1.3%;
+        } */
+        a:hover {
+            background-color: black;
+        } 
+        .btn{
+            width: 200px;
+            height: 40px;
+            border-radius: 1rem;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            font-size: larger;
+            border: none;
+            color: white;
+        }
+
+        .login:hover{
+            background-color: #04AA6D;
+        }
+    </style>
+</head>
+<body style="font-family:Source Sans Pro, sans-serif; width: 1290px; height: auto;" >
+        <nav style="display: flex;align-items: center; background-color: white;width: 1290px; height: 50px; ">
+            <div>
+                <img src="/images/w3school.png" width="50px">
+            </div>
+            <div style="display: flex; gap: 10%; padding-left: 2%; " >
+                <div style="display: flex; align-items: center; gap: 6%;" class="h" >
+                    <div>Tutorials</div>
+                    <div style="padding-top: 3%;"><img src="/images/arrowdown-removebg-preview.png" width="12px"></div>
+                </div>
+                <div style="display: flex;gap: 6%; align-items: center;" class="h">
+                    <div>Excercises</div>
+                    <div style="padding-top: 3%;"><img src="/images/arrowdown-removebg-preview.png" width="12px"></div>
+                </div>
+                <div style="display: flex; gap: 6%;align-items: center;" class="h">
+                    <div>Certificates</div>
+                    <div style="padding-top: 3%;"><img src="/images/arrowdown-removebg-preview.png" width="12px"></div>
+                </div>
+                <div style="display: flex; gap: 6%;align-items: center;" class="h">
+                    <div>Services</div>
+                    <div style="padding-top: 3%;"><img src="/images/arrowdown-removebg-preview.png" width="12px"></div>
+                </div>
+            </div>
+            <div style="display: flex;  border: solid; border-width: 1px;border-color: gray; margin-left: 12%; border-radius: 20px;  width:150px; height: 35px; margin-bottom: 0.8%;" >
+                <div style="padding-left: 10%; padding-top: 5%; color: gray;"><i>Search...</i></div>
+                <div style="padding-top: 6%; padding-left: 34%;">
+                    <img src="/images/search.png" width="15px">
+                </div>
+            </div>
+            <div style="padding-left: 2%;">
+                <img src="/toggle.png" width="25px">
+            </div> 
+            
+            <div style="display: flex; margin-left: 8%;">
+                <div>
+                    <button style="display: flex; border: none; background-color: white; gap: 5%;">
+                        <div>
+                            <img src="/images/code.png" width="18px">
+                        </div>
+                        <div style="font-size: 120%; padding-left: 1%;">Spaces</div>
+                    </button>
+                </div>
+                <div style="margin-left: 5%;">
+                    <button style="display: flex;border: none; background-color: white; gap: 7%;">
+                        <div style="padding-left: 5%;">
+                            <img src="/images/shop.png" width="20px">
+                        </div>
+                        <div style="font-size:120%;padding-left: 1%;">Get</div>
+                        <div style="font-size:120%;">Certified</div>
+                    </button>
+                </div>
+            </div>
+            <div style="position: relative; padding-bottom: 3.7%; margin-left: 3%;">
+                <button style="position: absolute; left: 70px; width: 100px; height: 40px; padding-right: 6%; border-radius: 1rem; background-color: rgb(173, 231, 212); border: none;" class="login">Log In</button>
+                <button style="position: absolute; left: 0; width: 100px; height: 40px; border-radius: 1rem; background-color: rgb(22, 180, 16); color: white; border: none;">Sign Up</button>
+            </div>
+            
+        </nav> 
+
+    <div style="background-color: #292a32; width: 1290px; height: 530px; margin-left: -10px;color:white; padding: 1%;">
+        <ul style="display: flex; gap: 2%; list-style: none;">
+            <a  class="home" style="margin-left: -3%;">HTML</a>
+            <a  class="home">CSS</a>
+            <a class="home">JAVASCRIPT</a>
+            <a class="home">SQL</a>
+            <a class="home">JAVA</a>
+            <a class="home">PYTHON</a>
+            <a class="home">PHP</a>
+            <a class="home">HOWTO</a>
+            <a class="home">W3.CSS</a>
+            <a class="home">C</a>
+            <a class="home">C++</a>
+            <a class="home">C#</a>
+            <a class="home">BOOTSTRAP</a>
+            <a class="home">REACT</a>
+            <a class="home"> MYSQL</a>
+            <a class="home">JQUERY</a>
+            <a class="home">EXCEL</a>
+            <a class="home"><img src="/images/a.png" alt="" width="50px"></a>
+        </ul>
+        
+        <div style="display: flex;">
+            <div style="padding-top: 8%;text-align: center; padding-left: 25%;">
+                <div style="font-size: 400%; font-weight: 800;"> Learn to Code</div>
+                <div style="padding-top: 5%; font-size: 160%; font-weight: 600; color: #fff4A3;">with the worlds largest web developer site</div>
+                <div style=" margin-top: 5%; margin-left: 10%; display: flex;  border: solid; border-width: 1px;border-color: gray;  border-radius: 20px;  width:600px; height: 45px; border: none;" >
+                    <input type="text" style="border-top-left-radius:  20px ; border-bottom-left-radius: 20px; width: 400px; padding-left: 3%; font-size: 100%; font-weight: 600;" placeholder="Search Our Tutorials, eg HTML,CSS ...." >    
+                    <button style="border: none; background-color: green; width: 90px; border-top-right-radius: 19px; border-bottom-right-radius: 20px;"><img src="/images/search.png" width="40px"></button>
+                </div>
+                <div style="padding-top: 6%; font-size:160%;color: white; font-weight: 600;"> 
+                    <a href="" style="color: white;">Not Sure Where To Begin?</a>
+                </div>
+            </div>
+            <div style="padding-left: 10%; padding-top: 12%; opacity: 1;">
+                <img src="/images//image-removebg-preview.png" width="200px">
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-left: -8px; width: 1295px; height: 570px; background-color: rgb(174, 212, 199);">
+
+        <div style="display: flex; justify-content: center; gap: 6%;">
+            <div style="width: 350px; height: 500px; margin-top: 6%;">
+                <div style="font-size: 500%; font-weight: 800;">HTML</div>
+                <div style="margin-left: -13%;padding-top: 5%;  font-size: 130%;font-weight: 500;">The language for building web pages</div>
+                <div class="button" style="display: flex; flex-direction: column; padding-top: 5%;">
+                    <button class="btn" style="margin-top: 7%;background-color: #04AA6D;">Learn HTML</button>
+                    <button class="btn" style="margin-top: 7%;background-color:#fff4A3 ;color: black;">Video Tutorials</button>
+                    <button class="btn" style="margin-top: 7%;background-color:#282A43 ;">HTML Reference</button>
+                    <button class="btn" style="margin-top: 7%;background-color: #ffc0c7; color: black;">Get Certified</button>
+                </div>
+            </div>
+            <div style="width: 410px; height: 465px; background-color: #E7E9EB; margin-top: 4%;">
+                <div style="padding: 5%; font-size: larger;font-weight: 600;">HTML EXAMPLE</div>
+                <div style="width: 365px; height: 315px; background-color: white; margin-left: 3%; border-left: solid; border-color: #04AA6D; padding-left: 3%;padding-top: 3%;">
+                    <div style="padding-top: 2%;"><span style="color: #0000CD;"><span style="color: #0000CD;">&lt;</span></span><span style="color: #A52A2A;">!DOCTYPE</span> <span style="color: #FF0000;">html</span><span style="color: #0000CD;">&gt;</span></div>
+                    <div style="padding-top: 2%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">html</span><span style="color: #0000CD;">&gt;</span></div>
+                    <div style="padding-top: 2%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">head</span><span style="color: #0000CD;">&gt;</span></div>
+                    <div style="padding-top: 2%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">title</span><span style="color: #0000CD;">&gt;</span>HTML Tutorial<span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">/title</span><span style="color: #0000CD;">&gt;</span></div>
+                    <div style="padding-top: 2%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">/head</span><span style="color: #0000CD;">&gt;</span></div>
+                    <div style="padding-top: 2%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">body</span><span style="color: #0000CD;">&gt;</span></div>
+                
+                    <div style="padding-top: 7%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">h1</span><span style="color: #0000CD;">&gt;</span>This is a heading<span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">/h1</span><span style="color: #0000CD;">&gt;</span></div>
+                    <div style="padding-top: 3%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">p</span><span style="color: #0000CD;">&gt;</span>This is a paragraph.<span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">/p</span><span style="color: #0000CD;">&gt;</span></div>
+                
+                    <div style="padding-top: 7%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">/body</span><span style="color: #0000CD;">&gt;</span></div>
+                    <div style="padding-top: 3%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">/html</span><span style="color: #0000CD;">&gt;</span></div>
+                </div>
+                <div><button class="btn" style="margin-top: 3%;margin-left: 2%; background-color: #04AA6D;">Try it Yourself</button></div>
+            </div>
+        </div>
+
+        <div style="margin-top: -9px; width: 1295px; height: 570px; background-color:#fff4A3;">
+
+            <div style="display: flex; justify-content: center; gap: 6%;">
+                <div style="width: 350px; height: 500px; margin-top: 9%;">
+                    <div style="font-size: 500%; font-weight: 800;">CSS</div>
+                    <div style="margin-left: -13%;padding-top: 5%;  font-size: 130%;font-weight: 500;">The language for styling web pages</div>
+                    <div class="button" style="display: flex; flex-direction: column; padding-top: 5%;">
+                        <button class="btn" style="margin-top: 7%;background-color: #04AA6D;">Learn CSS</button>
+                        <button class="btn" style="margin-top: 7%;background-color:#282A43 ;">CSS Reference</button>
+                        <button class="btn" style="margin-top: 7%;background-color: #ffc0c7; color: black;">Get Certified</button>
+                    </div>
+                </div>
+                <div style="width: 410px; height: 460px; background-color: #E7E9EB; margin-top: 4%;">
+                    <div style="padding: 5%; font-size: larger;font-weight: 600;">CSS EXAMPLE</div>
+                    <div style="width: 365px; height: 315px; background-color: white; margin-left: 3%; border-left: solid; border-color: #04AA6D; padding-left: 3%;padding-top: 3%;">
+                        <div><span style="color: #A52A2A;">body</span> {</div>
+                        <div style="padding-top: 2%;padding-left: 4%;"><span style="color: #FF0000;">background-color</span> : <span style="color: #0000CD;">lightblue</span> ;</div>
+                        <div style="padding-top: 2%;">}</div>      
+                        <div style="padding-top: 5%;"><span style="color: #A52A2A;">h1</span> {</div>
+                        <div style="padding-top: 2%; padding-left: 4%;"><span style="color: #FF0000;">color</span> : <span style="color: #0000CD;">white</span> ;</div> 
+                        <div style="padding-left: 4%;"><span style="color: #FF0000;">text-align</span> : <span style="color: #0000CD;">center</span> ;</div> 
+                        <div style="padding-top: 2%;">}</div>                          <div style="padding-top: 5%;"><span style="color: #A52A2A;">p</span> {</div>
+                            <div style="padding-top: 2%;padding-left: 4%;"><span style="color: #FF0000;">font-family</span> : <span style="color: #0000CD;">verdana</span> ;</div> 
+                        <div style="padding-top: 2%;">}</div>                          
+                    </div>
+                    <div><button class="btn" style="margin-top: 3%;margin-left: 2%; background-color: #04AA6D; ">Try it Yourself</button></div>
+                    <div style="margin-bottom: 3%;"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div style=" width: 1295px; height: 590px; background-color: #282A35;">
+
+                <div style="display: flex; justify-content: center; gap: 8%;">
+                    <div style="width: 350px; height: 400px; margin-top: 8%;">
+                        <div style="font-size: 400%; font-weight: 800; margin-left: -12%;color: white;">JavaScript</div>
+                        <div style="margin-left: -13%;padding-top: 5%;  font-size: 130%;font-weight: 500; color: white;">The language for programing web pages</div>
+                        <div class="button" style="display: flex; flex-direction: column; padding-top: 5%;">
+                            <button class="btn" style="margin-top: 7%;background-color: #04AA6D;">Learn JavaScript</button>
+                            <button class="btn" style="margin-top: 7%;background-color:white ;color: black;padding: 2%;">JavaScript Reference</button>
+                            <button class="btn" style="margin-top: 7%;background-color: #ffc0c7; color: black;">Get Certified</button>
+                        </div>
+                    </div>
+                    <div style="width: 450px; height: 455px; background-color: #E7E9EB; margin-top: 4%;">
+                        <div style="padding: 5%; font-size: larger;font-weight: 600;">JavaScript Example:</div>
+                        <div style="width: 400px; height: 315px; background-color: white; margin-left: 3%; border-left: solid; border-color: #04AA6D; padding-left: 3%;padding-top: 3%;">
+                            <div style="padding: 1%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">button  </span><span style="color: #FF0000;">onclick</span> = <span style="color: #0000CD;">"myFunction()"&gt;</span>Click Me! <span style="color: #0000CD;">&lt;</span> <span style="color: #A52A2A;">/button</span><span style="color: #0000CD;">&gt;</span></div>
+                            <div style="padding-top: 5%; padding-left: 2%;"><span style="color: #0000CD;">&lt;</span> <span style="color: #A52A2A;">script</span> <span style="color: #0000CD;">&gt;</span></div>
+                            <div style="padding-top: 2%; padding-left: 2%;"><span style="color: #0000CD;">function&nbsp;&nbsp;</span>myFunction()   {</div>
+                            <div style="padding-top: 3%; padding-left: 7%;"><span style="color: #0000CD;">let&nbsp;&nbsp;</span>x &nbsp;= &nbsp;document.getElementById(<span style="color: #A52A2A;">"demo"</span>);</div>
+                            <div style="padding-top: 2%; padding-left: 7%;">x&nbsp;.&nbsp;style&nbsp;.&nbsp;fontSize = <span style="color: #A52A2A;">"25px"</span>;</div>
+                            <div style="padding-top: 2%; padding-left: 7%;">x&nbsp;.&nbsp;style&nbsp;.&nbsp;color = <span style="color: #A52A2A;">"red"</span>;</div>   
+                            <div style="padding-top: 2%; padding-left: 2%;">}</div> 
+                            <div style="padding-top: 5%; padding-left: 2%;"><span style="color: #0000CD;">&lt;</span> <span style="color: #A52A2A;">script</span> <span style="color: #0000CD;">&gt;</span></div>
+                        </div>
+                        <div><button class="btn" style="margin-top: 3%;margin-left: 2%; background-color: #04AA6D;">Try it Yourself</button></div>
+                    </div>
+                </div>
+        </div>
+
+
+        <div style=" width: 1295px; height: 590px; background-color: #F3ECEA;">
+
+            <div style="display: flex; justify-content: center; gap: 8%;">
+                <div style="width: 350px; height: 400px; margin-top: 8%;">
+                    <div style="font-size: 400%; font-weight: 800; color: #000000;">Python</div>
+                    <div style="margin-left: -13%;padding-top: 5%;  font-size: 130%;font-weight: 500; color: #000000;">A popular programing language</div>
+                    <div class="button" style="display: flex; flex-direction: column; padding-top: 5%;">
+                        <button class="btn" style="margin-top: 7%;background-color: #04AA6D; color: #FFFFFF;">Learn Python</button>
+                        <button class="btn" style="margin-top: 7%;background-color:#282A35 ;color: #FFFFFF;padding: 2%;">Python Reference</button>
+                        <button class="btn" style="margin-top: 7%;background-color: #ffc0c7; color: black;">Get Certified</button>
+                    </div>
+                </div>
+                <div style="width: 450px; height: 350px; background-color: #E7E9EB; margin-top: 8%;box-sizing: inherit;">
+                    <div style="padding: 5%; font-size: larger;font-weight: 600;">Python Example:</div>
+                    <div style="width: 400px; height: 205px; background-color: white; margin-left: 3%; border-left: solid; border-color: #04AA6D; padding-left: 3%;padding-top: 3%;">
+                        <div style="padding: 3%;"><span style="color: #0000CD;">if</span>&nbsp;&nbsp;<span style="color: #FF0000;">&nbsp;5&nbsp;&nbsp;</span>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<span style="color: #FF0000;">2</span>:</div>
+                        <div style="padding-left: 5%;">&nbsp;&nbsp;print&nbsp;(<span style="color: #A52A2A;">&nbsp;&nbsp;"Five&nbsp;&nbsp;is&nbsp;&nbsp; greater &nbsp;&nbsp;than &nbsp;&nbsp;two!"&nbsp;&nbsp;</span>)</div>
+                    </div>
+                    <div><button class="btn" style="margin-top: 3%;margin-left: 2%; background-color: #04AA6D;">Try it Yourself</button></div>
+                </div>
+            </div>
+    </div>
+
+
+    <div style=" width: 1295px; height: 590px; background-color: #96D4D4;">
+
+        <div style="display: flex; justify-content: center; gap: 8%;">
+            <div style="width: 350px; height: 400px; margin-top: 8%;">
+                <div style="font-size: 400%; font-weight: 800; color: #000000; ">SQL</div>
+                <div style="margin-left: -13%;padding-top: 5%;  font-size: 130%;font-weight: 500; color: #000000;">A language for accessing databases</div>
+                <div class="button" style="display: flex; flex-direction: column; padding-top: 5%; padding-left: -3%;">
+                    <button class="btn" style="margin-top: 7%;background-color: #04AA6D; color: #FFFFFF;">Learn SQL</button>
+                    <button class="btn" style="margin-top: 7%;background-color:#282A35 ;color: #FFFFFF;padding: 2%;">SQL Reference</button>
+                    <button class="btn" style="margin-top: 7%;background-color: #ffc0c7; color: black;">Get Certified</button>
+                </div>
+            </div>
+            <div style="width: 450px; height: 350px; background-color: #E7E9EB; margin-top: 8%;box-sizing: inherit;">
+                <div style="padding: 5%; font-size: larger;font-weight: 600;">SQL Example:</div>
+                <div style="width: 400px; height: 205px; background-color: white; margin-left: 3%; border-left: solid; border-color: #04AA6D; padding-left: 3%;padding-top: 3%;">
+                    <div style="padding: 3%;"><span style="color: #0000CD;">SELECT</span>&nbsp;&nbsp;*&nbsp;&nbsp;<span style="color: #0000CD;">FROM</span>&nbsp;&nbsp;Customers</div>
+                    <div style="padding-top: 1%; padding-left: 3%;"><span style="color: #0000CD;">WHERE</span>&nbsp;&nbsp;Country=&nbsp;<span style="color: #A52A2A;">'Mexico'</span>&nbsp;;</div>
+                </div>
+                <div><button class="btn" style="margin-top: 3%;margin-left: 2%; background-color: #04AA6D;">Try it Yourself</button></div>
+            </div>
+        </div>
+</div>
+
+<div style="background-color: #282A35; width: 1290px; height: auto;">
+
+    <div style="display: flex; justify-content: space-between;">
+        <div style="width: 690px; height: 250px; background-color: #FFC0C7; margin: 3%; margin-top: 8%; border-radius: 5px; text-align: center;">
+            <div style="margin-top: 6%;font-size: 300%;font-weight: 800;">PHP</div>
+            <div style="margin-top: 5%;font-size: 18px;color: #3a3a3a;">A web server programing laungage</div>
+            <div style="margin-top: 6%;">
+                <button style="background-color: #282A35; padding: 8px 16px; border-radius: 1rem; color: #FFFFFF; width: 180px; height: 40px; border: none; font-size: 15px; font-weight: 800;" >Learn PHP</button>
+            </div>
+        </div>
+        <div style="width: 690px; height: 250px; background-color: #FFF4A3; margin: 3%; margin-top: 8%; border-radius: 5px; text-align: center;">
+            <div style="margin-top: 6%;font-size: 300%;font-weight: 800;">jQuery</div>
+            <div style="margin-top: 5%;font-size: 18px;color: #3a3a3a;">A JS library for developing web pages</div>
+            <div style="margin-top: 6%;">
+                <button style="background-color: #282A35; padding: 8px 16px; border-radius: 1rem; color: #FFFFFF; width: 180px; height: 40px; border: none; font-size: 15px; font-weight: 800;" >Learn jQuery</button>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; ">
+        <div style="width: 690px; height: 250px; background-color: #F3ECEA; margin: 3%; border-radius: 5px; text-align: center;">
+            <div style="margin-top: 6%;font-size: 300%;font-weight: 800;">Java</div>
+            <div style="margin-top: 5%;font-size: 18px;color: #3a3a3a;">A programing laungage</div>
+            <div style="margin-top: 6%;">
+                <button style="background-color: #282A35; padding: 8px 16px; border-radius: 1rem; color: #FFFFFF; width: 180px; height: 40px; border: none; font-size: 15px; font-weight: 800;" >Learn Java</button>
+            </div>
+        </div>
+        <div style="width: 690px; height: 250px; background-color: #D9EEE1; margin: 3%; border-radius: 5px; text-align: center;">
+            <div style="margin-top: 6%;font-size: 300%;font-weight: 800;">C++</div>
+            <div style="margin-top: 5%;font-size: 18px;color: #3a3a3a;">A programing laungage</div>
+            <div style="margin-top: 6%;">
+                <button style="background-color: #282A35; padding: 8px 16px; border-radius: 1rem; color: #FFFFFF; width: 180px; height: 40px; border: none; font-size: 15px; font-weight: 800;" >Learn C++</button>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between;">
+        <div style="width: 690px; height: 250px; background-color: #96D4D4; margin: 3%; border-radius: 5px; text-align: center;">
+            <div style="margin-top: 6%;font-size: 300%;font-weight: 800;">W3.CSS</div>
+            <div style="margin-top: 5%;font-size: 18px;color: #3a3a3a;">A CSS framework for faster and better responsive web pages</div>
+            <div style="margin-top: 6%;">
+                <button style="background-color: #282A35; padding: 8px 16px; border-radius: 1rem; color: #FFFFFF; width: 180px; height: 40px; border: none; font-size: 15px; font-weight: 800;" >Learn W3.CSS</button>
+            </div>
+        </div>
+        <div style="width: 690px; height: 250px; background-color: #E7E9EB; margin: 3%; border-radius: 5px; text-align: center;">
+            <div style="margin-top: 6%;font-size: 300%;font-weight: 800;">Bootstrap</div>
+            <div style="margin-top: 5%;font-size: 18px;color: #3a3a3a;">A CSS framework for designing better web pages</div>
+            <div style="margin-top: 6%;">
+                <button style="background-color: #282A35; padding: 8px 16px; border-radius: 1rem; color: #FFFFFF; width: 180px; height: 40px; border: none; font-size: 15px; font-weight: 800;" >Learn Bootstrap</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="display: flex; justify-content: space-between;">
+        <div style="width: 690px; height: 150px; background-color: #ffc0c7; margin: 3%; margin-top: 6%; border-radius: 5px; text-align: center;">
+            <div style="margin-top: 10%;font-size: 150%;font-weight: 800;">C</div>
+        </div>
+        <div style="width: 690px; height: 150px; background-color: #FFF4A3; margin: 3%; margin-top: 6%; border-radius: 5px; text-align: center;">
+            <div style="margin-top: 10%;font-size: 150%;font-weight: 800;">C#</div>
+        </div>
+    </div>
+
+
+
+
+    <div style="display: flex;gap: 6%; margin-left: 3%; margin-right: 3%; margin-top: 3%;">
+        <div style="width: 300px; height: 120px; background-color: #F3ECEA; border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">R</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #D9EEE1;border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Kotlin</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #96D4D4;border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Node.js</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #ffc0c7;border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">React</div>
+        </div>
+    </div>
+
+
+    <div style="display: flex;gap: 6%; margin-left: 3%; margin-right: 3%; margin-top: 3%;">
+        <div style="width: 300px; height: 120px; background-color: #FFF4A3; border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">JSON</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #F3ECEA;border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Vue</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #D9EEE1; border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">MySql</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #96D4D4;border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">XML</div>
+        </div>
+    </div>
+
+
+    <div style="display: flex;gap: 6%; margin-left: 3%; margin-right: 3%; margin-top: 3%;">
+        <div style="width: 300px; height: 120px; background-color: #ffc0c7; border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">SaaS</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #FFF4A3;border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Icons</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color:#F3ECEA;  border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">RWD</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color:#D9EEE1;  border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Graphics</div>
+        </div>
+    </div>
+
+    
+    <div style="display: flex;gap: 6%; margin-left: 3%; margin-right: 3%; margin-top: 3%;">
+        <div style="width: 300px; height: 120px; background-color:#96D4D4;  border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">SVG</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color:  #ffc0c7; border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Canvas</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color:#FFF4A3; border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Raspberry Pi</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color:#F3ECEA;  border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Cyber Security</div>
+        </div>
+    </div>
+
+    <div style="display: flex;gap: 6%; margin-left: 3%; margin-right: 3%; margin-top: 3%;">
+        <div style="width: 300px; height: 120px; background-color: #D9EEE1; border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Colors</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color:#96D4D4;   border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Git</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color:#ffc0c7;border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Matplotlib</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #FFF4A3;border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Numpy</div>
+        </div>
+    </div>
+
+    <div style="display: flex;gap: 6%; margin-left: 3%; margin-right: 3%; margin-top: 3%;">
+        <div style="width: 300px; height: 120px; background-color:#F3ECEA ; border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Pandas</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color:#D9EEE1;  border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Scipy</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color:#96D4D4;  border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">ASP</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #ffc0c7;border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">AngularJS</div>
+        </div>
+    </div>
+
+    <div style="display: flex;gap: 6%; margin-left: 3%; margin-right: 3%; margin-top: 3%;">
+        <div style="width: 300px; height: 120px; background-color: #FFF4A3; border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">AppML</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color:#F3ECEA;   border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Go</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color:#D9EEE1;  border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">TypeScript</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color:#96D4D4;  border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Django</div>
+        </div>
+    </div>
+
+    <div style="display: flex;gap: 6%; margin-left: 3%; margin-right: 3%; margin-top: 3%;">
+        <div style="width: 300px; height: 120px; background-color:#ffc0c7;  border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">MongoDB</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #FFF4A3; border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Statistics</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #F3ECEA; border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Data Science</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #D9EEE1; border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Typing Speed</div>
+        </div>
+    </div>
+
+    <div style="display: flex;gap: 6%; margin-left: 3%; margin-right: 3%; margin-top: 3%;">
+        <div style="width: 300px; height: 120px; background-color: #96D4D4;border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">How To</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #ffc0c7; border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Code Game</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #FFF4A3;border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">Spaces</div>
+        </div>
+        <div style="width: 300px; height: 120px; background-color: #F3ECEA;border-radius: 5px;">
+            <div style="text-align: center;margin-top: 20%; font-size: 150%;font-weight: 800;">PostgreSQL</div>
+        </div>
+    </div>
+
+
+    <div style="display: flex; justify-content: space-between;">
+        <div style="width: 690px; height: 120px; background-color: #96D4D4; margin: 3%; margin-top: 4%; border-radius: 5px; text-align: center;">
+            <div style="margin-top: 8%;font-size: 160%;font-weight: 800;">Excel</div>
+        </div>
+        <div style="width: 690px; height: 120px; background-color: #FFF4A3; margin: 3%; margin-top: 4%; border-radius: 5px; text-align: center;">
+            <div style="margin-top: 8%;font-size: 160%;font-weight: 800;">DSA-Data Structures & Algorithm</div>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: space-between;">
+        <div style="width: 690px; height: 120px; background-color: #ffc0c7; margin: 3%; margin-top: 2%; border-radius: 5px; text-align: center;">
+            <div style="margin-top: 8%;font-size: 160%;font-weight: 800;">Machine Learning</div>
+        </div>
+        <div style="width: 690px; height: 120px; background-color: #FFF4A3; margin: 3%; margin-top: 2%; border-radius: 5px; text-align: center;">
+            <div style="margin-top: 8%;font-size: 160%;font-weight: 800;">Artificial Intelligence</div>
+        </div>
+    </div>
+
+
+    <div style="color: white; margin-top: 10%; text-align: center; font-size: 400%; font-weight: 800;">Code Editor</div>
+    <div style="margin-top: 2%; font-size: 18px; font-weight: 500;color: white; text-align: center;"> With our online code editor, you can edit code and view the result in your browser</div>
+    <div style=" margin-top: 3%; width: 900px; height: 400px; border-radius: 5px; background-color: #F1F1F1; margin-left: 15%; margin-right: 10%;">
+        <div style="display: flex; padding: 2%; gap: 17%;">
+            <div style="">
+                <div style="height: 15px;width: 15px; background-color: #ED594A; border-radius: 50%;display: inline-block;"></div>
+                <div style="height: 15px;width: 15px; background-color: #FDD800; border-radius: 50%;display: inline-block;"></div>
+                <div style="height: 15px;width: 15px; background-color: #5AC05A; border-radius: 50%;display: inline-block;"></div>
+            </div>
+            <div>
+                <input type="text" value="www.w3schools.com/tryit/" style="background-color: white;color: gray; border: none; width: 300px;">
+            </div>
+        </div>
+        <div style="display: flex;margin-left: 2%; gap: 6%;">
+            <div style="background-color: #E7E9EB; height: 30px; padding-top: 1%;padding-left: 1%; width: 95px;">Frontend</div>
+            <div style="padding-top: 1%;">Backend</div>
+        </div>
+        <div style="width: 880px; height: 200px;background-color: #E7E9EB; margin-left: 2%;">
+            <div style="display: flex; align-items: center; gap: 1%; margin-left: 1%; padding-top: 1%;">
+                <img src="/images/home.png" width="20"/>
+                <img src="/images/menu.png" width="30"/>
+                <img src="/images/file.png" width="20">
+                <img src="/images/mobile.png" width="30">
+                <img src="/images/toggle.png" width="50">
+                <button style="margin-left: 7%; width: 70px; height: 30px; background-color: #04AA6D; border: none; color: white; font-weight: 400;">Run</button>
+            </div>
+            <div style="display: flex; gap: 1%; margin-top: 1%;">
+                <div style="background-color: white;width: 50%; height: 250px; padding-left: 1%;">
+                        <div style="padding-top: 2%;"><span style="color: #0000CD;"><span style="color: #0000CD;">&lt;</span></span><span style="color: #A52A2A;">!DOCTYPE</span> <span style="color: #FF0000;">html</span><span style="color: #0000CD;">&gt;</span></div>
+                        <div style="padding-top: 2%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">html</span><span style="color: #0000CD;">&gt;</span></div>
+                        <div style="padding-top: 2%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">body</span><span style="color: #0000CD;">&gt;</span></div>   
+                        <div style="padding-top: 7%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">h1</span><span style="color: #0000CD;">&gt;</span>This is a heading<span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">/h1</span><span style="color: #0000CD;">&gt;</span></div>
+                        <div style="padding-top: 3%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">p</span><span style="color: #0000CD;">&gt;</span>This is a paragraph.<span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">/p</span><span style="color: #0000CD;">&gt;</span></div>
+                        <div style="padding-top: 7%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">/body</span><span style="color: #0000CD;">&gt;</span></div>
+                        <div style="padding-top: 3%;"><span style="color: #0000CD;">&lt;</span><span style="color: #A52A2A;">/html</span><span style="color: #0000CD;">&gt;</span></div>
+                </div>
+                <div style="background-color: white;width: 50%; padding-left: 1%;">
+                    <h1>This is a heading.</h1>
+                    <p>This is a paragraph</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button style="margin-top: 1%;border: none; width: 400px;height: 35px;margin-left: 15%; background-color: #04AA6D;color: white; font-size: 18px; font-weight: 500;">Try Frontend Editor (HTML,CSS,JS)</button>
+    <br>
+    <button style="margin-top: 1%;border: none; width: 400px;height: 35px;margin-left: 15%;background-color: #FFF4A3; color: black; font-size: 18px; font-weight: 500;">Try Backend Editor (Python,PHP,Java,C.)</button>
+
+    <div style="font-size: 400%; font-weight: 800; color: white; text-align: center;margin-top: 10%;">W3schools Spaces</div>
+    <div style="font-size: 150%; font-weight: 600; color: white; text-align: center; margin-top: 2%;">If you want to create your own website, check out <a href="">W3Schools Spaces</a>.</div>
+    <div style="font-size: 150%; font-weight: 600; color: white; text-align: center; margin-top: 1%;">It is free to use, and does not require any setup:</div>
+    <div style="margin-top: 5%;">
+        <div style="width: 900px; height: 400px; background-color: #E7E9EB; margin-left: 15%;">
+            <img src="/images/dynamicspaces.gif" width="900px" height="400px"></img>
+        </div>
+    </div>
+    <img src="/images/how-spaces-works3.png" style="margin-left: 7%; margin-top: 6%;">
+    <button style="background-color: #04AA6D; width: 200px; height: 40px; border-radius: 1rem; font-size: 18px; font-weight: 800; color: white; margin-left: 42%; margin-top: 3%;margin-bottom: 8%; border: none;">Learn More</button>
+</div>
+
+
+<div style="width: 1290px; height: 900px; background-color: #D9EEE1;">
+
+    <div style="text-align: center; font-size: 300%; font-weight: 700; padding-top: 8%;">My Learning</div>
+    <div style="text-align: center; font-size: 100%; font-weight: 600; margin-top: 2%;">Track your progress with our free "My Learning" program.</div>
+    <div style="text-align: center; font-size: 100%; font-weight: 600; margin-top: 2%;">Log in to your account, and start earning points!</div>
+    <img src="/images/myl-green-off.png" alt="" style="margin-left: 18%; margin-top: 5%;" width="900px" height="380px">
+    <button style="background-color: #04AA6D; width: 200px; height: 40px; border-radius: 1rem; font-size: 20px; font-weight: 800; color: white; margin-left: 42%; margin-top: 5%;margin-bottom: 8%; border: none;">SignUp for Free</button>
+</div>
+
+<div style="width: 1290px; height: 600px; background-color: #282A35;">
+    <div style="font-size: 300%; font-weight: 700; text-align: center; padding-top: 8%; color: white;">Become a Plus User</div>
+    <div style="font-size: 150%; font-weight: 300 ;text-align: center; margin-top: 2%; color: #FFC0C7;">And unlock powerful features:</div>
+    <div style="text-align: center; font-size: 100%; font-weight: 300; margin-top: 5%; color: white;">Browse W3Schools without ads</div>
+    <div style="text-align: center; font-size: 100%; font-weight: 300; margin-top: 1%; color: white;">Build and host Websites</div>
+    <div style="text-align: center; font-size: 100%; font-weight: 300; margin-top: 1%; color: white;">Get extra credits</div>
+    <div style="text-align: center; font-size: 100%; font-weight: 300; margin-top: 1%; color: white;">Priority support</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
